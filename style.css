@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+        width:100%;
+}
+.sub_wrap{
+    width:1100px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+.main_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.manu a{
+    padding:15px;
+    font-family: "Poppins", sans-serif;
+    text-decoration:none;
+ 
+
+}
+.cont_text::before{
+    content: "";
+    width: 100%;
+    height: 300px;
+    background-image: url("imgs/image 4.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right:80px;
+    top:-100px;
+    z-index: 5;
+}
+.cont_text{
+    width:50%;
+    z-index:6;
+  position: relative;
+}
+
+.head_buttun button{
+    font-family: "Poppins", sans-serif;
+    padding: 15px 40px;
+    border-radius:30px;
+    background: #385F96;
+    border: 1px solid #000;
+    color: rgb(255, 255, 255);
+
+}
+.head_buttun button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #385F96;
+}
+.contend{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+.cont_but{
+    font-family: "Poppins", sans-serif;
+    padding: 15px 40px;
+    border-radius:30px;
+    background: #385F96;
+    border: 1px solid #000;
+    color: rgb(255, 255, 255);
+
+}
+.cont_but:hover{
+    background-color: rgb(255, 255, 255);
+    color: #385F96;
+}
+.cont_text h2{
+    font-family: "Poppins", sans-serif;
+    font-size:50px;
+   color: #385F96;
+
+}
+.cont_img{
+    width: 50%;
+}
+
+.conten_tow{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    padding-bottom: 120px;
+}
+.contend_tow_img{
+    width: 50%;
+}
+.contend_tow_text{
+    width: 50%;
+}
+.last_contend{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+    gap:10%;
+    /* padding-top: 120px; */
+}
+.lest_con_text{
+    width: 50%;
+}
+.last_con_img{
+    width: 50%;
+}
+.last_contend_bg{
+    background-image: url("./imgs/Rectangle 10.jpg");
+}
+.foot{
+    text-align: center;
+    background-color: #385F96;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+}
+.footer_bg{
+    background-color: #385F96;
+}
